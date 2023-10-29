@@ -166,7 +166,6 @@ export function UI({ fileInputProps }: { fileInputProps: DropzoneInputProps }) {
       <Control aria-current={debug} onClick={() => setDebug(!debug)}>
         Preview
       </Control>
-
     </div>
   );
 }
