@@ -63,6 +63,14 @@ export function UI({ fileInputProps }: { fileInputProps: DropzoneInputProps }) {
         <input id="file-input" {...fileInputProps} />
       </label>
 
+      <label
+        htmlFor="file-input"
+        className="cursor-pointer flex m-2 py-2 px-4 text-sm font-medium text-white bg-gray-700 hover:bg-gray-600 border border-gray-600 rounded-lg shadow-sm"
+      >
+        Select File
+        <input id="file-input" {...fileInputProps} />
+      </label>
+
       <Control aria-current={autoPlay} onClick={() => setAutoPlay(!autoPlay)}>
         Autoplay
       </Control>
@@ -162,7 +170,7 @@ export function UI({ fileInputProps }: { fileInputProps: DropzoneInputProps }) {
       <a
         target="_blank"
         rel="noopener noreferrer"
-        href="https://github.com/TimoWilhelm/vr-player"
+        href="https://github.com/tsanius/webxr_mediaplayer"
         aria-label="View source on GitHub"
         className="flex m-2 py-2 px-2 text-sm font-medium text-white bg-gray-700 hover:bg-gray-600 border border-gray-600 rounded-lg shadow-sm"
       >
